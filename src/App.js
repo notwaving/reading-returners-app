@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
 import Header from './Header.js';
+import SearchBar from './SearchBar.js'
 
 function App() {
   return (
-    <Header />
+    <div className="container-fluid">
+      <Header />
+      <SearchBar />
+    </div>
   );
 }
 
