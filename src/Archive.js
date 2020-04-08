@@ -12,8 +12,7 @@ class Archive extends React.Component {
 
           <div className="container-fluid padding">
             <table className="table">
-              
-              <thead>
+              {/* <thead>
                 <tr>
                   <th scope="col"></th>
                   <th scope="col"></th>
@@ -21,7 +20,7 @@ class Archive extends React.Component {
                   <th scope="col"></th>
                   <th scope="col"></th>
                 </tr>
-              </thead>
+              </thead> */}
               <tbody>
                 <tr>
                   <th scope="row"></th>
