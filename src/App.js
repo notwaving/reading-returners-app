@@ -11,9 +11,11 @@ function App() {
       <Header />
       <SearchBar />
       <ReadingList bookListing = {["Quiet", "Susan Cain"]}/>
-      <ReadingList bookListing = {["Lost In A Good Game", "Pete Etchells"]}/>
+      <ReadingList bookListing = {["Lost in a Good Game", "Pete Etchells"]}/>
       <ReadingList bookListing = {["La Belle Sauvage", "Philip Pullman"]}/>
-      <Archive />
+      <Archive bookListing = {["The Crimson Petal and the White", "Michel Faber"]}/>
+      <Archive bookListing = {["Introducing HTML 5", "Bruce Lawson & Remy Sharp"]}/>
+      <Archive bookListing = {["The Amber Spyglass", "Philip Pullman"]}/>
     </div>
   );
 }

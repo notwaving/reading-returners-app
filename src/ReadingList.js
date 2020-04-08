@@ -21,7 +21,7 @@ class ReadingList extends React.Component {
           <tbody>
             <tr>
               <th scope="row"></th>
-    <td>{this.props.bookListing[0]}</td>
+              <td>{this.props.bookListing[0]}</td>
               <td>{this.props.bookListing[1]}</td>
               <td><button type="button" className="btn btn-outline-success" onclick="userFinishedBook()">Finished</button>
               </td>
