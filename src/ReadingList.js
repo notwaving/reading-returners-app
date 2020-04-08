@@ -14,10 +14,20 @@ class ReadingList extends React.Component {
             {this.props.bookListing[1]}
           </div>
           <div className="col-2">
-            <button type="button" className="btn btn-outline-success" onclick="userFinishedBook()">Finished</button>
+            <button
+              type="button"
+              className="btn btn-outline-success"
+              onclick="userFinishedBook()">
+              Finished
+            </button>
           </div>
           <div className="col-2">
-            <button type="button" className="btn btn-outline-danger" onclick="userDeleteBook()">Delete</button>
+            <button
+              type="button"
+              className="btn btn-outline-danger"
+              onclick="userDeleteBook()">
+              Delete
+            </button>
           </div>
         </div>
       </div>
