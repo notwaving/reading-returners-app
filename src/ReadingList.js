@@ -21,24 +21,8 @@ class ReadingList extends React.Component {
           <tbody>
             <tr>
               <th scope="row"></th>
-              <td>Quiet</td>
-              <td>Susan Cain</td>
-              <td><button type="button" className="btn btn-outline-success" onclick="userFinishedBook()">Finished</button>
-              </td>
-              <td><button type="button" className="btn btn-outline-danger" onclick="userDeleteBook()">Delete</button></td>
-            </tr>
-            <tr>
-              <th scope="row"></th>
-              <td>Lost In A Good Game</td>
-              <td>Pete Etchells</td>
-              <td><button type="button" className="btn btn-outline-success" onclick="userFinishedBook()">Finished</button>
-              </td>
-              <td><button type="button" className="btn btn-outline-danger" onclick="userDeleteBook()">Delete</button></td>
-            </tr>
-            <tr>
-              <th scope="row"></th>
-              <td>La Belle Sauvage</td>
-              <td>Philip Pullman</td>
+    <td>{this.props.bookListing[0]}</td>
+              <td>{this.props.bookListing[1]}</td>
               <td><button type="button" className="btn btn-outline-success" onclick="userFinishedBook()">Finished</button>
               </td>
               <td><button type="button" className="btn btn-outline-danger" onclick="userDeleteBook()">Delete</button></td>

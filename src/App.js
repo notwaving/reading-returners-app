@@ -10,7 +10,9 @@ function App() {
     <div className="container-fluid">
       <Header />
       <SearchBar />
-      <ReadingList />
+      <ReadingList bookListing = {["Quiet", "Susan Cain"]}/>
+      <ReadingList bookListing = {["Lost In A Good Game", "Pete Etchells"]}/>
+      <ReadingList bookListing = {["La Belle Sauvage", "Philip Pullman"]}/>
       <Archive />
     </div>
   );
