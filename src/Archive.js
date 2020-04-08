@@ -5,15 +5,14 @@ class Archive extends React.Component {
   render() {
     return (
       <div>
-        <button className="archive-button btn btn-outline-secondary" data-toggle="collapse" data-target="#archive-toggle">Click
+        {/* This toggle button needs to wrap around all the tables - not sure how to do it without attatching a toggle to every bookListing instance */}
+        {/* <button className="archive-button btn btn-outline-secondary" data-toggle="collapse" data-target="#archive-toggle">Click
       for Archive</button>
-        <div id="archive-toggle" className="collapse">
+        <div id="archive-toggle" className="collapse"> */}
 
           <div className="container-fluid padding">
             <table className="table">
-              <div className="col-12">
-                <h4 className="table-header text-left">Archive</h4>
-              </div>
+              
               <thead>
                 <tr>
                   <th scope="col"></th>
@@ -35,7 +34,7 @@ class Archive extends React.Component {
             </table>
           </div>
         </div >
-      </div>
+      // </div>
     );
   };
 }

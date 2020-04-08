@@ -6,10 +6,7 @@ class ReadingList extends React.Component {
     return (
       <div className="container-fluid padding">
         <table className="table">
-          <div className="col-12">
-            <h4 className="table-header text-left">Your reading list</h4>
-          </div>
-          <thead>
+          {/* <thead>
             <tr>
               <th scope="col"></th>
               <th scope="col"></th>
@@ -17,7 +14,7 @@ class ReadingList extends React.Component {
               <th scope="col"></th>
               <th scope="col"></th>
             </tr>
-          </thead>
+          </thead> */}
           <tbody>
             <tr>
               <th scope="row"></th>
